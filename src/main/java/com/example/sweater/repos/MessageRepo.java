@@ -10,7 +10,5 @@ import java.util.List;
 // CRUD refers Create, Read, Update, Delete
 
 public interface MessageRepo extends CrudRepository<Message, Long> {
-
     List<Message> findByTag(String tag);
-
 }
